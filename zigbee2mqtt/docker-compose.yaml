@@ -13,6 +13,6 @@ services:
     privileged: true
     environment:
       - TZ=Europe/Amsterdam
-    build:
-      context: .
-      network: host
+    # build:
+    #   context: .
+    #   network: host
