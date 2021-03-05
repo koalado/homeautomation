@@ -14,4 +14,5 @@ services:
     environment:
       - TZ=Europe/Amsterdam
     build:
+      context: .
       network: host
